@@ -1,0 +1,44 @@
+                    MY COMPUTER
+                 ┌─────────────────┐
+                 │  Working Folder │
+                 │                 │
+                 │  index.html     │
+                 │  app.js         │
+                 │  server.js      │
+                 └────────┬────────┘
+                          │
+                       git add
+                          ↓
+                 ┌─────────────────┐
+                 │  Staging Area   │
+                 └────────┬────────┘
+                          │
+                     git commit
+                          ↓
+                 ┌─────────────────┐
+                 │ Local Git Repo  │
+                 │   .git/         │
+                 └────────┬────────┘
+                          │
+                      git push
+                          ↓
+                 ┌─────────────────┐
+                 │     GitHub      │
+                 │ Remote Repository│
+                 └─────────────────┘
+
+
+
+- Git -> Distributed version control system
+- pc -> git-> local repo
+- when multiple developer work together, git lets them work on different changes and combine them safely
+
+
+
+- Github -> cloud platform that hosts git repo and adds collaboration features
+- pc -> git -> github -> pr/reviews/issues/actions/permissions
+
+
+
+- repo -> project + its git history(whatever changes we have done in this repo)
+git init -> creates .git directory
