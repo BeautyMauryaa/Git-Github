@@ -45,6 +45,7 @@ Staging Area
 - Git fundamentals
 - GitHub
 - Branching
+<<<<<<< HEAD
 - Pull Requests
 
 ```text
@@ -61,3 +62,6 @@ Staging Area
                   ready to commit
 ```
 - inspect the stage changes: git diff --staged
+=======
+- Pull Requests
+>>>>>>> 3a9bebd81cd3b0918237b207f7e33e26f64c9739
