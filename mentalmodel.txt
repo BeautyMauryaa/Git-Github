@@ -1,44 +1,43 @@
-                    MY COMPUTER
-                 ┌─────────────────┐
-                 │  Working Folder │
-                 │                 │
-                 │  index.html     │
-                 │  app.js         │
-                 │  server.js      │
-                 └────────┬────────┘
-                          │
-                       git add
-                          ↓
-                 ┌─────────────────┐
-                 │  Staging Area   │
-                 └────────┬────────┘
-                          │
-                     git commit
-                          ↓
-                 ┌─────────────────┐
-                 │ Local Git Repo  │
-                 │   .git/         │
-                 └────────┬────────┘
-                          │
-                      git push
-                          ↓
-                 ┌─────────────────┐
-                 │     GitHub      │
-                 │ Remote Repository│
-                 └─────────────────┘
+``` text
+                 YOUR COMPUTER
+              ┌─────────────────┐
+              │ Working Directory│
+              └────────┬────────┘
+                       │
+                    git add
+                       ↓
+              ┌─────────────────┐
+              │ Staging Area    │
+              └────────┬────────┘
+                       │
+                  git commit
+                       ↓
+              ┌─────────────────┐
+              │ Local Repository│
+              │                 │
+              │ Commit 1        │
+              │ Commit 2        │
+              └────────┬────────┘
+                       │
+                    git push
+                       ↓
+              ┌─────────────────┐
+              │ GitHub          │
+              │                 │
+              │ Remote Repo     │
+              │ Commit 1        │
+              │ Commit 2        │
+              └─────────────────┘
+```
 
+```text 
+Command	Main job
+git init	-> Create a local Git repository
+git remote add	-> Connect local repo to a remote
+git add	-> Put changes into staging
+git commit	-> Record staged changes locally
+git push	-> Send local commits to remote
+git fetch	-> Download remote updates/information
+git pull	-> Fetch + integrate remote changes
 
-
-- Git -> Distributed version control system
-- pc -> git-> local repo
-- when multiple developer work together, git lets them work on different changes and combine them safely
-
-
-
-- Github -> cloud platform that hosts git repo and adds collaboration features
-- pc -> git -> github -> pr/reviews/issues/actions/permissions
-
-
-
-- repo -> project + its git history(whatever changes we have done in this repo)
-git init -> creates .git directory
+```

@@ -46,3 +46,18 @@ Staging Area
 - GitHub
 - Branching
 - Pull Requests
+
+```text
+                README modified
+                       │
+                       ↓
+                Working Directory
+                       │
+                    git add
+                       ↓
+                 Staging Area
+                       │
+                       ↓
+                  ready to commit
+```
+- inspect the stage changes: git diff --staged
